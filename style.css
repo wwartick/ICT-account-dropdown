@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #B99470;
+}
+
+.top-div{
+    background-color: #5F6F52;
+    height: 10svh;
+    padding: 5vh 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.main-container{
+    display: flex;
+    font-size: 1.75rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.dropdown-button{
+    text-align: center;
+
+    & ion-icon{
+        position: relative;
+        top: 2px ;
+    }
+}
+
+.drop-down-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid red;
+}
+
+.top-drop-down{
+    display: flex;
+    gap: 2rem;
+}
+
+.bot-drop-down{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    aspect-ratio: 1;
+    height: 50px;
+    border-radius: 50%;
+}
